@@ -1,0 +1,32 @@
+/Library/Frameworks/Python.framework/Versions/3.5/bin/python3 create_mosaic_2.py ./new_tiles Master_pic.JPG o.jpg
+
+
+use click2corp
+
+python2 preprocess.py new_tiles img
+python create_mosaic_2.py ./img Master_pic.JPG o.jpg
+changed master’s image size 32X32
+
+
+56  python create_mosaic_2.py ./img Master_pic.JPG o.jpg
+   57  vi create_mosaic_2.py
+   58  python create_mosaic_2.py ./img Master_pic.JPG o.jpg
+   59  vi create_mosaic_2.py
+   60  python create_mosaic_2.py ./img Master_pic.JPG o.jpg
+   61  vi create_mosaic_2.py
+   62  python create_mosaic_2.py ./img Master_pic.JPG o.jpg
+   63  cd img/
+   64  ls -lrt | grep -i p525
+   65  ls -lrt
+   66  rm p5250999.jpg 
+   67  cd ../
+   68  python create_mosaic_2.py ./img Master_pic.JPG o.jpg
+   69  ls -lrt
+   70  vi create_mosaic_2.py
+   71  python create_mosaic_2.py ./img Master_pic.JPG o.jpg
+   72  mv Master_pic.JPG Master_pic.jpg
+   73  vi create_mosaic_2.py
+   74  python create_mosaic_2.py ./img Master_pic.JPG o.jpg
+   75  vi create_mosaic_2.py
+   76  ls
+   77  python create_mosaic_2.py ./img Master_pic.JPG o.jpg
